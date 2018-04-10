@@ -1,0 +1,117 @@
+/*
+Nombre del sitio: PAL - Todo para su portón
+URL: 
+Autor: Paul Cristerna, David Gastelum
+Autor URL: 
+Description: Sitio desarrollado para la empresa PAL para dar a conocer sus servicios.
+Version: 1.0
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{
+	background-color: #ccc;
+	font-family: helvetica, sans-serif, arial;
+}
+
+#site{
+	background-color: #fff;
+	margin:0 auto;
+	width: 1200px;
+}
+
+/** cabecera **/
+
+.header{
+	height: 115px;
+	padding: 10px;
+}
+
+.logo-sitio{
+	float: left;
+}
+
+.contacto{
+	float: right;
+}
+
+.menu{
+	background-color: #cf3333;
+	height: 20px;
+	padding: 10px;
+}
+
+.buscar{
+	float: right;
+}
+
+/** contenido **/
+.slide{
+	border: 1px solid #000;
+	height: 380px;
+	width: 1200px;
+}
+
+.contenido{
+	background-color: #fff;
+	height: 750px;
+	width: 1200px;
+}
+
+.servicios{
+	float: left;
+	padding: 0px 10px 10px 10px;
+	width: 275px;
+}
+
+.contenido-derecha{
+	float: right;
+	padding: 0px 10px 10px 10px;
+	width: 883px;
+}
+
+.limpiar{
+	clear: both;
+}
+
+.ultimos-trabajos{
+	height: 250px;
+	width: 883px;	
+}
+
+.ultimos-trabajos ul{
+	list-style: none;
+	padding: 0px;
+	margin:0px;
+}
+
+.ultimos-trabajos ul li{
+	float: left;
+}
+
+.ultimos-trabajos ul li img, .bloque img{
+	height: 180px;
+	width: 280px;
+}
+
+.bloque{
+	float: left;
+	width: 280px;
+}
+
+.primero{
+	margin-right:20px;
+}
+
+.ultimo{
+	margin-left:20px;
+}
+
+/** footer **/
+.footer{
+	padding: 10px;
+}

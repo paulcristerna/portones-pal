@@ -1,0 +1,160 @@
+/*
+Nombre del sitio: PAL - Todo para su portón
+URL: 
+Autor: Paul Cristerna, David Gastelum
+Autor URL: 
+Description: Sitio desarrollado para la empresa PAL para dar a conocer sus servicios.
+Version: 1.0
+*/
+
+body{
+	background-color: #ccc;
+}
+
+
+a img{
+	border:none;
+}
+
+.site{	
+	margin:-25px 0px 20px 0px;
+}
+
+.site, .login{
+	background-color: #fff;
+	-webkit-box-shadow:  0px 0px 3px 3px rgba(0, 0, 0, 0.1);        
+    box-shadow:  0px 0px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.login{
+	padding:20px 0px 30px 0px;
+	width: 630px;
+	margin: 0 auto;
+}
+
+/** header **/
+.header{
+	padding: 15px;
+}
+
+.logo{
+	margin-left: 25px;
+	width: 300px;
+}
+
+.contacto{
+	text-align: right;	
+}
+
+.contacto strong{
+	color: #6699cc;
+}
+
+.primero{
+	font-size: 1.1em;
+	padding-bottom: 5px; 
+}
+
+.segundo{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.tercero{
+	font-size: 1.2em;
+}
+
+.servicio{
+	margin-right:10px;
+}
+
+.form-horizontal{
+	padding-top: 20px;
+}
+
+.input-prepend{
+	margin-bottom: 15px;
+}
+
+.categorias{
+	margin: 0px;
+}
+
+.categorias li{
+	width: 100%;
+	list-style: none;
+	padding-top: 5px;
+}
+
+.preview{
+	width: 300px;
+}
+
+.enlace{
+	color: #333333;
+}
+
+/** contenido **/
+
+.slide{
+	margin-top: -20px; 
+}
+
+p.parrafo{
+	margin-top: 5px;
+	text-align: justify;
+}
+
+.icon{
+	height: 40px;
+	width: 60px;
+}
+
+/** footer **/
+.footer-sitio{
+	padding: 20px;
+}
+
+.logo-icon{
+	height: 70px;
+	margin-right:10px;
+	width: 140px;
+}
+
+.titulo-footer{
+	margin-top: 10px;
+}
+
+.calendar
+{
+	background: url("../img/icono_calendario.gif") no-repeat scroll 0 0 transparent;
+	background-position: right;
+
+}
+
+ .zoomLens{
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .div_cat{
+
+  	background: #D8D8D8;
+  	color: black;
+  	font-weight: bold;
+  	width: 100%;
+  	padding-top: 5px;
+  	text-align: center;
+  	border-radius:10px;
+  	margin-top:5px; 
+  }
+
+  .select{
+  	background: black;
+  	color: white;
+  }
+
+
+
+
+
